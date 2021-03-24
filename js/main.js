@@ -17,7 +17,7 @@ $("#start").click(function() {
                     type: "POST",
                     url: $("#webhook-url").val(),
                     data: JSON.stringify({
-                        content: ($("#msg").val() == "" ? "Hide yer webhooks!" : $("#msg").val()),
+                        content: ($("#msg").val() == "" ? "Hide ur webhooks!" : $("#msg").val()),
                         username: ($("#username").val() == "" ? null : $("#username").val()),
                         avatar_url: ($("#avatar").val() == "" ? null : $("#avatar").val()),
                     })
