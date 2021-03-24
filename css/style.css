@@ -68,8 +68,8 @@ input[type="text"] {
     font-size: 17px;
     line-height: 1.471;
     border-radius: 6px;
-    color: #ffffff;
-    background-color: #2980b9;
+    color: #838383c9;
+    background-color: #000000;
     border: none;
     display: block;
     margin: 0 auto;
@@ -81,7 +81,7 @@ input[type="text"] {
 }
 
 .btn:hover {
-    background-color: #3498db;
+    background-color: #ffffff;
     border-color: #3498db;
     outline: none;
 }
